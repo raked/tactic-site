@@ -1,13 +1,13 @@
 function Nav() {
     return (
-        <div>
-            <nav className="navbar navbar-light navbar-expand-lg d-flex" style={{ backgroundColor: "#cfe8fb" }}>
+        <div className="d-flex-inline justify-content-around">
+            <nav className="navbar navbar-light navbar-expand-lg" style={{ backgroundColor: "#cfe8fb" }}>
                 <div className="container-fluid">
-                    <ul>
-                        <li class="link"><a href="#music" className="link-dark">Music</a></li>
-                        <li><a href="#" className="link-dark">Tactic</a></li>
-                        <li><a href="#contact" className="link-dark">Contact</a></li>
-                    </ul>
+                    
+                        <a href="#music" className="link-dark ms-5">Music</a>
+                        <div className="lead">Tactic</div>
+                        <a href="#contact" className="link-dark me-5">Contact</a>
+                    
                 </div>
             </nav>
         </div>
