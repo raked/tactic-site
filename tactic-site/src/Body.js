@@ -37,7 +37,11 @@ function Body() {
                 </div>
             </section>
             <section id="contact">
-
+                <div className="container text-center p-3">
+                    <a href="https://www.github.com/raked" target="_blank" rel="noreferrer">
+                        <img src="assets/images/logo.png" alt="Soundcloud logo" />
+                    </a>
+                </div>
             </section>
         </div>
     );
