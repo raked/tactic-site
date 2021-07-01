@@ -1,6 +1,6 @@
 function Nav() {
     return (
-        <div className="d-flex-inline justify-content-around bg-light" /*style={{ backgroundColor: "#cfe8fb" }}*/>
+        <div className="d-flex-inline justify-content-around bg-light">
             <nav className="navbar navbar-light navbar-expand-lg">
                 <div className="container-fluid">
 
